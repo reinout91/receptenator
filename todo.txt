@@ -1,0 +1,36 @@
+Keuzes maken:
+
+-Frontend app
+	Vue met typescript
+	vanuit de app/receptonator folder:
+	npm run serve 
+
+	Webapp
+		Gebruik:
+			Alleen zelf recepten kunnen toevoegen
+				Met 'geheime url'
+			Iedereen mag de generator gebruiken
+		UI:
+			Knopje generate
+				Exclude 1 ingredient
+				Include 1 ingredient (Zoekfunctie)
+			Twee situaties:
+				Verwijzen naar een recept
+				Eigen recept tonen
+-Backend
+	PYTHON: met fastapi
+		Met uvicorn als server.
+		We gebruiken pipenv om de packages te managen.
+		Run app met:
+		cd api
+		uvicorn main:app --reload
+
+-Datastorage
+	JSON file met daarin recepten. DONE
+
+Als je tegen een error aanloopt in windows: "The file C:\Users\reino\AppData\Roaming\npm\vue.ps1 is not digitally signed. You cannot run this script on the current system." tegenkomt, doe:
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+Voer dan het script uit en zet daarna de policy terug.
+Terugzetten met:
+Set-ExecutionPolicy -ExecutionPolicy AllSigned -Scope CurrentUser

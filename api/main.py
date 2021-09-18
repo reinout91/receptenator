@@ -19,7 +19,7 @@ app.add_middleware(
 
 @app.get("/")
 def home():
-    return "Hallo, Miriam!"
+    return "Receptenator"
 
 
 @app.get("/recepten")

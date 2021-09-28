@@ -1,5 +1,29 @@
 [
-	{"naam" : "Poke Bowl",
-		"ingredienten": ["Sushi rijst", "Komkommer", "Garnalen", "Avocado", "Wortel"]
-	}
+  {
+    "id": 0,
+    "naam": "Poke Bowl",
+    "ingredienten": [
+      "Sushi rijst",
+      "Komkommer",
+      "Garnalen",
+      "Avocado",
+      "Wortel"
+    ],
+    "kooktijd": 45,
+    "opmerkingen": "Hier kunnen we eventueel wat tips en tricks geven..."
+  },
+    {
+    "id": 1,
+    "naam": "Shoarma",
+    "ingredienten": [
+      "Shoarma vlees",
+      "Pita broodjes",
+      "Komkommer",
+      "Ui",
+      "Knoflooksaus",
+      "Peterselie"
+    ],
+    "kooktijd": 30,
+    "opmerkingen": "Hier kunnen we eventueel wat tips en tricks geven..."
+  }
 ]
